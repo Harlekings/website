@@ -10,7 +10,7 @@ mongo@1.3.0                   # The database Meteor supports right now
 static-html             # Define static page content in .html files
 reactive-var@1.0.11            # Reactive variable for tracker
 tracker@1.1.3                 # Meteor's client-side reactive programming library
-
+http
 standard-minifier-css@1.3.5   # CSS minifier run for production mode
 standard-minifier-js@2.2.0    # JS minifier run for production mode
 es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers
@@ -23,16 +23,17 @@ shell-server@0.3.0            # Server-side component of the `meteor shell` comm
 
 ### security
 service-configuration
+oauth
+oauth2
 accounts-base
-lichthagel:accounts-discord
-
+accounts-oauth
 mdg:validated-method
-
-allaning:roles
+random
+alanning:roles
 
 ### database
 aldeed:collection2
-orionsoft:react-meteor-database
+orionsoft:react-meteor-data
 
 ### style
 fourseven:scss
